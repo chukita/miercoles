@@ -1,0 +1,18 @@
+@font-face {
+    font-family: MiFuentePersonal;
+    src: url("../fonts/retro_computer_personal_use.ttf") format("opentype");
+}
+body{
+    color: aliceblue;
+    background-color: black;
+    font-family: 'MiFuentePersonal', monospace;
+}
+h1{
+    border: 5px dashed rgb(238, 238, 222);
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
