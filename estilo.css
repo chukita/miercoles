@@ -1,0 +1,9 @@
+ul{font-family: 'Roboto', sans-serif;}
+li{ list-style: none;}
+#menu{width:100%; float:left; background-color: #bbb;}
+.titulo{width: 65%; float: left; padding-left: 5%;font-family: 'Roboto', sans-serif;}
+.texto_color{color:blueviolet}
+a.texto_color{color: brown;}
+.cuerpo{ width: 100%; background-color: #1abc9c; padding: 100px 0 50px 0;}
+.cuerpo p{text-align: center;}
+.cuerpo img{border-radius: 200px;}
