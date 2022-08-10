@@ -11,58 +11,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/fonts-style.css">
         <link rel="shortcut icon" sizes="144x144" href="images/FonkyGhost2.png">
+
+        <script>
+            function calcular(){
+                var puntos = Number(document.getElementById("puntos").innerHTML);
+                var suma   = puntos + 1;
+                document.getElementById("puntos").innerHTML = suma;
+            }
+
+        </script>
+
+
     </head>
     <body>
-        <img src="images/logos.png" alt="Logos HTML,CSS y JS" width="50%" height="50%">
-        <h1>Presentacion del Curso Front-End por MDN</h1>
-        <h2>Temario de HTML:</h2>
-        <p><a href="https://developer.mozilla.org/es/docs/Learn/HTML" target="_blank">HTML - Estructurando la web</a></p>
-        <ol type="I"> <p></p>
-            <li>
-                Introduccion a HTML.
-            </li>
-            <li>
-                Multimedia e insercion.
-            </li>
-            <li>
-                Tablas HTML.
-            </li>
-        </ol>
-        <h2>Temario de CSS:</h2>
-        <p><a href="https://developer.mozilla.org/es/docs/Learn/CSS" target="_blank">Estilizando la Web.</a></p>
-        <ol type="I">
-            <li>
-                CSS Primeros pasos.
-            </li>
-            <li>
-                CSS Bloques de construccion.
-            </li>
-            <li>
-                CSS Estilo de texto.
-            </li>
-            <li>
-                CSS Diseño.
-            </li>
-        </ol>
-        <h2>Temario de JavaScript:</h2>
-        <p><a href="https://developer.mozilla.org/es/docs/Learn/JavaScript" target="_blank">Scripts dinamicos del lado del cliente</a></p>
-        <ol type="I">
-            <li>
-                JavaScript primeros pasos.
-            </li>
-            <li>
-                JavaScript Bloques de construccion.
-            </li>
-            <li>
-                Introducion a los objetos JavaScript.
-            </li>
-            <li>
-                JavaScript asincrono.
-            </li>
-            <li>
-                APIs del lado del cliente (Client-side).
-            </li>
-        </ol>
-        <p><a href="https://developer.mozilla.org/es/docs/Learn/Front-end_web_developer" target="_blank">Enlace a Desarrolo Web Front-End MDN</a></p>
+        
+        <input type="button" value="CLICK PARA SUMAR PUNTOS" onclick="calcular()">
+
+        <p> TU PUNTAJE ES: <SPAN id="puntos">0</SPAN></p>
+
+        <input type="button" value="CALCULAR" onclick="">
+    
     </body>
 </html>
